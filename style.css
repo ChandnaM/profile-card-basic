@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap);
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+.profile-card{
+    max-width:370px;
+    width: 100%;
+    background: #fff;
+    border-radius:24px;
+    padding:25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+.image{
+    position:relative;
+    height:100px;
+    width:150px;
+    border-radius:50%;
+    background-color: #4070f4;
+    padding: 3px;
+    align-items: center;
+    /* margin: 40px; */
+}
+.image .img-image{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    border-radius:50%;
+    border:3px solid #fff;
+}
+.profile-card .text-data{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.text-data .name {
+    font-size: 22px;
+    font-weight: 500; /* Numeric value for medium font weight */
+}
+
+.text-data .who {
+    font-size: 22px;
+    font-weight: 300; /* Numeric value for normal font weight */
+}
+.profile-card .media-buttons{
+display: flex;
+align-items: center;
+/* border: 2px solid black; */
+margin-top: 15px;
+margin-bottom: 10px;
+}
+.media-buttons .link{
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+    margin:0 8px;
+    color: #fff;
+    background-color: #4070f4;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.buttons .button{
+    border:none;
+    color:#fff;
+    transition: all 0.3s ease;
+    border-radius: 24px;
+    margin: 0 10px;
+    padding: 8px 14px;
+    background-color: #4070f4;
+    cursor: pointer;
+}
+.buttons .button:hover{
+background-color: #0e4bf1;
+}
+.analytics{
+    display:flex;
+    margin: 0 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+.analytics .data{
+    
+    align-items: center;
+    color: #333;
+    padding:0 10px;
+    border-right: 2px solid #e7e7e7;
+}
+.data:last-child{
+    border-right: none;
+}
